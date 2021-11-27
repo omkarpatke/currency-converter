@@ -8,7 +8,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>Currency Converter</header>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="form">
+                    <p>Form</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/16x12/in.png" alt="flag">
+                        <select>
+                            <option value="USD">USD</option>
+                            <option value="NPR">NPR</option>
+                            <option value="INR">INR</option>
+                            <option value="USD">USD</option>
+                            <option value="PKR">PKR</option>
+                            <option value="MAD">MAD</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="to">
+                    <p>TO</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/16x12/us.png" alt="flag">
+                        <select>
+                            <option value="USD">USD</option>
+                            <option value="NPR">NPR</option>
+                            <option value="INR">INR</option>
+                            <option value="USD">USD</option>
+                            <option value="PKR">PKR</option>
+                            <option value="MAD">MAD</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="exchange-rate">
+                    1USD = 118.19NPR
+                </div>
+                <button>Get Exchange Rate</button>
+            </div>
+        </form>
+
+    </div>
 
 
     <script src="app.js"></script>
